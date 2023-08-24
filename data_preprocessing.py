@@ -1,3 +1,5 @@
+#data_preprocessing
+
 """
 Pré-processa os sintomas do usuário.
 
@@ -8,12 +10,14 @@ symptom_mapping (dict): Dicionário que mapeia sintomas para seus números corre
 Retorna:
 list: Lista dos números correspondentes aos sintomas do usuário após o pré-processamento.
 """
+
 def preprocess_user_symptoms(user_symptoms, symptom_mapping):
     try:
-        return [symptom_mapping[str(symptom.strip())] for symptom in user_symptoms.split(',')]
+        return [symptom_mapping[str(symptom)] for symptom in user_symptoms]
     except KeyError as e:
         print(f"Sintoma não reconhecido: {e}")
         return []
+
 
 
 """
