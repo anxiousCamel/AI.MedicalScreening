@@ -1,0 +1,30 @@
+[
+  {
+    "symptomDictionary": {
+      "1": "febre",
+      "2": "dor de cabeça",
+      "3": "cansaço",
+      "4": "dor de garganta",
+      "5": "tosse",
+      "6": "dor abdominal",
+      "7": "náusea"
+    },
+
+    "data": [
+      {
+        "symptoms": [1, 2, 3],
+        "disease": "gripe"
+      },
+
+      {
+        "symptoms": [4, 5],
+        "disease": "resfriado"
+      },
+
+      {
+        "symptoms": [6, 7],
+        "disease": "gastroenterite"
+      }
+    ]
+  }
+]
