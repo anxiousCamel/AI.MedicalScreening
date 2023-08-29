@@ -1,3 +1,4 @@
+# main.py
 import json
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -6,8 +7,7 @@ from joblib import dump, load
 from data_preprocessing import preprocess_training_data
 from data_loading import load_data
 from interface import run_interface
-import logging
-import logger
+from logger import logging
 
 # Função para processar o texto individualmente
 def analyze_text(x):
@@ -20,7 +20,11 @@ def train_model(all_symptoms, all_labels):
         MultinomialNB()
     )
     model.fit(all_symptoms, all_labels)
-    logging.info("Modelo treinado com sucesso.")
+
+    # Calcula a acurácia nos dados de treinamento
+    train_accuracy = model.score(all_symptoms, all_labels)
+
+    logging.info("Modelo treinado com sucesso. Acurácia: %.2f%%", train_accuracy * 100)
     return model
 
 def save_model(model, filename):

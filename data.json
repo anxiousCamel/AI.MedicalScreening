@@ -2,28 +2,162 @@
   {
     "symptomDictionary": {
       "1": "febre",
-      "2": "dor de cabeça",
-      "3": "cansaço",
+      "2": "dor de cabe\u00c3\u00a7a",
+      "3": "cansa\u00c3\u00a7o",
       "4": "dor de garganta",
       "5": "tosse",
       "6": "dor abdominal",
-      "7": "náusea"
+      "7": "n\u00c3\u00a1usea",
+      "8": "dores nas articula\u00c3\u00a7\u00c3\u00b5es",
+      "9": "tosse com catarro",
+      "10": "tosse com seca",
+      "11": "calafrios",
+      "12": "desidrata\u00c3\u00a7\u00c3\u00a3o",
+      "13": "fadiga",
+      "14": "mal-estar",
+      "15": "perda de apetite",
+      "16": "rubor",
+      "17": "dor no corpo",
+      "18": "suor",
+      "19": "congest\u00c3\u00a3o nazal",
+      "20": "nariz escorrendo",
+      "21": "espirros",
+      "22": "irrita\u00c3\u00a7\u00c3\u00a3o na garganta",
+      "23": "falta de ar",
+      "24": "fraqueza muscular",
+      "25": "incha\u00c3\u00a7o dos g\u00c3\u00a2nglios",
+      "26": "press\u00c3\u00a3o no peito",
+      "27": "cansa\u00e7o extremo",
+      "28": "sentindo frio",
+      "29": "dor nos m\u00fasculos",
+      "30": "dor nos ouvidos",
+      "31": "dor nos seios paranasais",
+      "32": "tosse seca",
+      "33": "congest\u00e3o",
+      "34": "perda de olfato",
+      "35": "nariz vermelho",
+      "36": "gotejamento p\u00f3s-nasal",
+      "37": "dor na garganta",
+      "38": "irrita\u00e7\u00e3o na garganta",
+      "39": "garganta seca",
+      "40": "dor de cabe\u00e7a",
+      "41": "incha\u00e7o dos g\u00e2nglios",
+      "42": "olhos marejados",
+      "43": "press\u00e3o no peito",
+      "44": "priva\u00e7\u00e3o de sono",
+      "45": "dores no abd\u00f4men",
+      "46": "dores no reto",
+      "47": "diarreia",
+      "48": "arroto",
+      "49": "engasgos",
+      "50": "fezes verdes",
+      "51": "incha\u00e7o",
+      "52": "indigest\u00e3o",
+      "53": "v\u00f4mito",
+      "54": "dores de est\u00f4mago",
+      "55": "flatul\u00eancia",
+      "56": "desidrata\u00e7\u00e3o",
+      "57": "sede excessiva",
+      "58": "tontura",
+      "59": "boca seca",
+      "60": "perda de peso",
+      "61": "produ\u00e7\u00e3o insuficiente de urina",
+      "62": "ritmo card\u00edaco acelerado",
+      "63": "dor atr\u00e1s dos olhos",
+      "64": "dor nas costas",
+      "65": "dor no abd\u00f4men",
+      "66": "dor nos ossos",
+      "67": "dor forte nas articula\u00e7\u00f5es",
+      "68": "tremor",
+      "69": "manchas avermelhadas",
+      "70": "n\u00e1usea",
+      "71": "dor ao engolir",
+      "72": "suor noturno",
+      "73": "diarreia aquosa",
+      "74": "diarreia persistente",
+      "75": "perda de massa muscular e fraqueza",
+      "76": "perda de peso n\u00e3o intencional severa",
+      "77": "l\u00edngua branca",
+      "78": "\u00falceras na boca",
+      "79": "erup\u00e7\u00f5es na pele",
+      "80": "p\u00fastulas na pele",
+      "81": "dores na genital",
+      "82": "incha\u00e7o genital",
+      "83": "dificuldade em engolir",
+      "84": "infec\u00e7\u00e3o oportunista",
+      "85": "pneumonia",
+      "86": "sapinho",
+      "87": "dor no reto",
+      "88": "dor ao sentar",
+      "89": "desconforto no \u00e2nus",
+      "90": "coceira no \u00e2nus",
+      "91": "incha\u00e7o no \u00e2nus",
+      "92": "constipa\u00e7\u00e3o",
+      "93": "sangue nas fezes",
+      "94": "fissuras na pele",
+      "95": "irrita\u00e7\u00e3o na pele",
+      "96": "coceira",
+      "97": "sangramento",
+      "98": "dor no bra\u00e7o",
+      "99": "dor no bra\u00e7o esquerdo",
+      "100": "dor no maxilar",
+      "101": "dor no peito",
+      "102": "dor em repouso",
+      "103": "queima\u00e7\u00e3o no peito",
+      "104": "pele fria e \u00famida",
+      "105": "suor frio",
+      "106": "desconforto no pesco\u00e7o",
+      "107": "rigidez no pesco\u00e7o",
+      "108": "desconforto no bra\u00e7o",
+      "109": "rigidez no bra\u00e7o",
+      "110": "ansiedade",
+      "111": "desconforto no ombro",
+      "112": "palpita\u00e7\u00f5es ou press\u00e3o no peito"
     },
-
     "data": [
       {
-        "symptoms": [1, 2, 3],
-        "disease": "gripe"
+        "symptoms": [
+          1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+          22, 23, 24, 25, 26
+        ],
+        "disease": "Gripe"
       },
-
       {
-        "symptoms": [4, 5],
+        "symptoms": [
+          4, 5, 1, 11, 13, 14, 15, 17, 18, 20, 21, 20, 21, 1, 11, 13, 14, 15,
+          17, 18, 27, 28, 20, 21, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+          40, 41, 42, 43, 44
+        ],
         "disease": "resfriado"
       },
-
       {
-        "symptoms": [6, 7],
+        "symptoms": [
+          6, 7, 1, 11, 13, 15, 18, 40, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54,
+          55, 56, 57, 58, 59, 60, 61, 62
+        ],
         "disease": "gastroenterite"
+      },
+      {
+        "symptoms": [1, 13, 14, 15, 18, 29, 40, 63, 64, 65, 66, 67, 68, 69, 70],
+        "disease": "dengue"
+      },
+      {
+        "symptoms": [
+          1, 4, 13, 14, 15, 18, 32, 40, 41, 47, 53, 60, 65, 70, 71, 72, 73, 74,
+          75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86
+        ],
+        "disease": "AIDS"
+      },
+      {
+        "symptoms": [51, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97],
+        "disease": "Hemorroida"
+      },
+      {
+        "symptoms": [
+          13, 18, 23, 52, 53, 58, 70, 98, 99, 100, 101, 102, 103, 104, 105, 106,
+          107, 108, 109, 110, 111, 112
+        ],
+        "disease": "Ataque card\u00edaco"
       }
     ]
   }

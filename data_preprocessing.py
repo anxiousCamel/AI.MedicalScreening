@@ -1,4 +1,4 @@
-#data_preprocessing
+#data_preprocessing.py
 
 """
 Pré-processa os sintomas do usuário.
