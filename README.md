@@ -1,7 +1,5 @@
 # IA para Triagem Médica
 
-![IA para Triagem Médica](link_para_imagem)
-
 Este repositório contém um sistema de Inteligência Artificial desenvolvido para auxiliar no processo de triagem médica, com o objetivo de agilizar a identificação de casos graves e potencialmente salvar mais vidas.
 
 ## Funcionalidades Principais
